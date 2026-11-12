@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shorts Squad — vertical clips for the Vice City 360 BR channel</title>
+<meta name="description" content="Shorts Squad is a Windows desktop app that turns gaming commentary videos into vertical Shorts and sends them to the channel's own accounts.">
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="./"><img src="icon.png" alt="Shorts Squad icon">SHORTS SQUAD</a>
+  <nav><a href="#how-it-works">How it works</a><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a></nav>
+</header>
+<main>
+  <h1>Turn long gaming videos into vertical Shorts.</h1>
+  <p class="lead">Shorts Squad is a desktop app for Windows made for the <strong>Vice City 360 BR</strong> channel. It finds the best moments of GTA&nbsp;6 commentary and gameplay videos, cuts them into vertical clips with animated captions, and sends each clip to the channel's own YouTube, TikTok, Instagram and Facebook accounts.</p>
+
+  <div class="cards">
+    <div class="card"><h3>Find the moment</h3><p>The video is transcribed on the computer and an editor agent picks the parts with a strong hook and a complete idea.</p></div>
+    <div class="card"><h3>Make the clip</h3><p>Each part becomes a 9:16 clip (1080×1920) with word-by-word captions, the hook as a title and the channel name.</p></div>
+    <div class="card"><h3>Send it</h3><p>Approved clips go to the channel's accounts. On TikTok they arrive as drafts: the creator reviews and posts each one in the TikTok app.</p></div>
+  </div>
+
+  <h2 id="how-it-works">How it works with TikTok</h2>
+  <ol>
+    <li>In <em>Settings → Integrations</em>, the creator clicks <strong>Connect TikTok</strong> and logs in on TikTok's official authorization page (Login Kit). The app asks only for <code>user.info.basic</code>, to show which account is connected, and <code>video.upload</code>, to send drafts.</li>
+    <li>When a clip is ready, Shorts Squad uploads the video file to the creator's TikTok inbox as a draft (Content Posting API, upload to inbox).</li>
+    <li>TikTok sends a notification to the creator, who opens it in the TikTok app, edits the caption and decides whether to post. Shorts Squad never posts on TikTok by itself.</li>
+    <li>The creator can disconnect TikTok in the app at any time; the access tokens are deleted from the computer.</li>
+  </ol>
+  <p class="note">Shorts Squad runs only on the creator's own computer. It has no server and does not collect data from other people. Tokens are stored encrypted with Windows secure storage.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about the app, the Terms or the Privacy Policy: <a href="mailto:vxtechexperience@gmail.com">vxtechexperience@gmail.com</a></p>
+
+  <section class="lang" lang="pt-BR">
+    <h2>Em português</h2>
+    <p>O Shorts Squad é um aplicativo para Windows feito para o canal <strong>Vice City 360 BR</strong>. Ele encontra os melhores momentos de vídeos de GTA&nbsp;6, gera cortes verticais com legenda animada e envia cada corte para as contas do próprio canal no YouTube, TikTok, Instagram e Facebook. No TikTok, o vídeo chega como rascunho: o criador revisa e publica no app do TikTok. Leia os <a href="terms.html">Termos de uso</a> e a <a href="privacy.html">Política de privacidade</a>.</p>
+  </section>
+</main>
+<footer>
+  <span>© 2026 Shorts Squad · Vice City 360 BR</span>
+  <span><a href="terms.html">Terms of Service</a> · <a href="privacy.html">Privacy Policy</a> · <a href="mailto:vxtechexperience@gmail.com">Contact</a></span>
+</footer>
+</body>
+</html>
